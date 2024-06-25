@@ -1,0 +1,42 @@
+.imgsize{
+    width: 40%;
+    height: 50%;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    resize: auto;
+}
+.shift3{
+    padding-left: 30px;
+    width: 24rem;
+}
+
+@media(max-width:480px){
+
+    .nav1{
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: white;
+        padding: 5px;
+        left: 0;
+
+        
+        
+    }
+    body{
+        padding-bottom: 60px;
+    }
+    .logo{
+        position: static;
+        top: 0;
+        height: 2rem;
+        padding-left: 10px;
+        
+        
+    }
+    
+}

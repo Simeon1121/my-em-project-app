@@ -1,0 +1,60 @@
+.commentImg{
+    width: 70px;
+    height: 7;
+}
+.textedit{
+    padding-left: 10px;
+}
+
+.btncolor{
+    background-color: rgba(21, 101, 216, 1);
+}
+@media(max-width:480px){
+
+    .title{
+        font-size: 12px;
+    }
+    .time{
+        font-size: 7px;
+    }
+    .imgmobile{
+        width: 40px;
+        height: 40px;
+    }
+    .status{
+        font-size: 12px;
+        width: 90px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .icon{
+        width: 25px;
+    }
+    .search{
+        font-size: 10px;
+        height: 65px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;  
+        
+    }
+    body{
+        width: 100;
+    }
+}
+
+@media(min-width:796px){
+        .imglg{
+            width: 60px;
+            height: 60px;
+        }
+}
